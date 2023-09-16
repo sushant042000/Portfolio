@@ -1,0 +1,38 @@
+.hero-container {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 20px;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.hero-left-section {
+  width: 400px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 50x 0;
+}
+
+.hero-right-section {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  
+}
+
+.hero-right-section > img {
+  width: 50%;
+  border-radius: 20px;
+
+}
+
+.purple {
+  color: purple;
+}

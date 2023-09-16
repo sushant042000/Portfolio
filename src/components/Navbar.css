@@ -1,0 +1,38 @@
+.nav-container {
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  flex-wrap: wrap;
+  height: 40px;
+  background-color: rgb(31 31 103);
+  position: fixed;
+  width: 100vw;
+}
+.list {
+  display: flex;
+  list-style: none;
+  /* flex-wrap: wrap; */
+  
+}
+
+.nav-container > ul > li > a {
+  margin-right: 10px;
+  background-color: rgb(31 31 103);
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-container > ul > li  {
+  background-color: rgb(31 31 103);
+}
+
+.nav-container > ul > li :hover{
+  color: purple;
+
+}
+
+.nav-container > h2 {
+  background-color: rgb(31 31 103);
+}
+

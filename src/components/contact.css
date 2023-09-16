@@ -1,0 +1,49 @@
+.contact-section {
+  background-color: rgb(8, 8, 37);
+  padding: 50px 0;
+}
+
+.item{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  /* border: 1px solid #ddd; */
+  background-color: rgb(8, 8, 37);
+  
+}
+
+.contact-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-container li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-container a {
+  color: #0077b5; /* LinkedIn and GitHub blue */
+  text-decoration: none;
+}
+
+.contact-container a:hover {
+  text-decoration: underline;
+}

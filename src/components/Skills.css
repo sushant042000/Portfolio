@@ -1,0 +1,64 @@
+.skills{
+    font-size: 1.6rem;
+    margin: 0 20px;
+    height: auto;
+    padding-top: 60px;
+
+}
+.text-gray{
+    color: gray;
+}
+
+.skills-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.skills-wrapper{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-list{
+    
+    background: rgb(204, 49, 49);
+    height: 2px;
+    width: 100%;
+    margin: 80px;
+    display: flex;
+    
+    
+}
+
+
+.verticle{
+    position: relative;
+    height: 100px;
+    background-color: white;
+    width: 2px;
+    margin-left: 10vw;
+}
+.verticle >img {
+    position: absolute;
+    width: 50px;
+    top: -76px;
+    left: 0 px;
+    border-radius: 50%;
+}
+
+
+.skill-desc{
+    position: absolute;
+    left: 12px;
+    font-size: 1rem;
+    bottom: -25px;
+    
+
+}
+

@@ -1,0 +1,25 @@
+.about {
+  margin: 0 20px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-me {
+  margin-top: 40px;
+  width: 50vw;
+}
+.profile-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.profile-data > img {
+  margin-top: 20px;
+  height: 20vw;
+  border-radius: 20px;
+  width: 30vw;
+}

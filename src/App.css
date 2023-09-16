@@ -1,0 +1,22 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@400;500&display=swap');
+
+* {
+  
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(8, 8, 37);
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  width: 100vw;
+}
+hr{
+  background-color: rgb(47, 47, 150);
+  color: rgb(47, 47, 150);
+  border: 0;
+  height: 1px;
+  margin: 40px 20px;
+}
