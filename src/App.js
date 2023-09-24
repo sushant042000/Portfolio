@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Services from "./components/Services";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
@@ -13,15 +13,15 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <hr></hr>
+      <hr className="border-2  border-solid border-purple-950 "></hr>
+      <Projects />
+      
+      <hr className="border-2  border-solid border-purple-950 "></hr>
       <Skills/>
-      <hr></hr>
-      <Services />
-      <hr></hr>
+      <hr className="border-2  border-solid border-purple-950 "></hr>
       <About />
-      <hr></hr>
+      <hr className="border-2  border-solid border-purple-950 "></hr>
       <Contact />
-     
       <Footer />
     </div>
   );
