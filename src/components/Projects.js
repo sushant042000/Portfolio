@@ -15,10 +15,21 @@ const blogAppTechStack = [
 const foodieHubTechStack = ["React", "Redux-Toolkit", "Tailwindcss"];
 const Projects = () => {
   return (
-    <div className="h-auto lg:h-[100vh] bg-violet-100 px-10" style={{display:"flex",flexDirection:"column", alignItems:"center", justifyContent:"center"}} id="projects">
+    <div
+      className="h-auto lg:h-[100vh] bg-violet-100 px-10"
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+      id="projects"
+    >
       <hr className="box-border h-2 bg-blue-200 mt-10"></hr>
 
-      <h1 className="flex justify-center text-2xl border-b-4 border-solid border-purple-950 py-1 ">My Projects</h1>
+      <h1 className="flex justify-center text-2xl border-b-4 border-solid border-purple-950 py-1 ">
+        My Projects
+      </h1>
 
       <Project img={blogApp} tech={blogAppTechStack} name={"Blog App"} />
       <hr className="box-border h-2 bg-blue-200 mt-2"></hr>
@@ -57,7 +68,14 @@ const Project = ({ img, tech, name }) => {
             <span>
               <AiFillGithub />
             </span>
-            <span className="text-lg ml-1 cursor-pointer">Github</span>
+            <span className="text-lg ml-1 cursor-pointer">
+              <a
+                href="https://github.com/sushant042000?tab=repositories"
+                target="_blank"
+              >
+                Github
+              </a>
+            </span>
           </div>
           <div className="flex items-center m-2">
             <span>
